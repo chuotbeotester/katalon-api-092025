@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS04_E2E_User_Management</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>88034c30-2693-4e93-b6bb-0a14e1369eec</testSuiteGuid>
+   <testCaseLink>
+      <guid>dd7023f3-6581-4be5-8bd1-67102107ee84</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/e2e-user-management/TC_get_user</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>023f4908-eff5-4639-85d4-48b4a1edfe17</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/e2e-user-management</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>023f4908-eff5-4639-85d4-48b4a1edfe17</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>ea829d7a-cc1e-4048-8789-26539002f8ae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>023f4908-eff5-4639-85d4-48b4a1edfe17</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>e19c187e-4844-4593-9ec8-eaac194915eb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6e95d863-a5a7-4567-ac0c-58063586409d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/e2e-user-management/TC_patch_user</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ddabea1c-7ec4-4a8e-af32-5ec4900b9287</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>2-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/e2e-user-management</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>ddabea1c-7ec4-4a8e-af32-5ec4900b9287</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>f278049a-5010-4858-926d-7e919303ab79</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>02c36eb3-92ab-42c5-a426-b3101cb8c54a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/e2e-user-management/TC_del_user</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>
