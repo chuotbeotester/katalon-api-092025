@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_me</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>476944f5-12ac-422f-92c0-1729879f8fef</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ac455de-a63f-4436-b84b-a3429109d453</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1ac455de-a63f-4436-b84b-a3429109d453</id>
+      <masked>false</masked>
+      <name>statusCode</name>
+   </variable>
+</TestCaseEntity>

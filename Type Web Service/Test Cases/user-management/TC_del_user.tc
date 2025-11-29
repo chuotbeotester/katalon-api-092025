@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_del_user</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>295ddcd0-a055-4eb0-971d-99b5a0268d34</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>53305772-94e3-4d56-939f-7a4c8da501f7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fcbbe6c5-143d-4f60-ac6e-fde41974f0c1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>53305772-94e3-4d56-939f-7a4c8da501f7</id>
+      <masked>false</masked>
+      <name>statusCode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fcbbe6c5-143d-4f60-ac6e-fde41974f0c1</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>
